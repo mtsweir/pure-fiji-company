@@ -1,0 +1,26 @@
+{
+  "name": "www2",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "slick-carousel": "~1.5.8",
+    "pushy": "~0.9.2",
+    "photoswipe": "~4.1.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "jquery.scrollTo": "~2.1.2",
+    "mocha": "~2.2.5",
+    "photoswipe": "~4.1.0"
+  }
+}
