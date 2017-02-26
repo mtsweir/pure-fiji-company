@@ -1,0 +1,327 @@
+//@import "layout";
+
+@media only screen and (max-width:479px) {
+
+	.product-grid-item {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.hero img {
+		height: 100%;
+		min-width: 100%;
+		width: auto;
+	}
+
+}
+
+@media only screen and (max-width:699px) {
+
+	/* Country select */
+	.country-list {
+		margin-bottom: 20px;
+		li {
+			width: 48%;
+			display: inline-block;
+			position: relative;
+			&:after {
+				position: absolute;
+				left: 40px;
+			}
+		}
+		a {
+			display: inline-block;
+			text-indent: -999em;
+			width: 100%;
+		}
+		.country-list-item--us {
+			&:after {
+				content: "USA";
+			}
+		}
+		.country-list-item--uk { 
+			&:after {
+				content: "UK";
+			}
+		}
+		.country-list-item--au {
+			&:after {
+				content: "AU";
+			}
+		}
+		.country-list-item--nz {
+			&:after {
+				content: "NZ";
+			}
+		}
+		.country-list-item--cze {
+			&:after {
+				content: "CZE";
+			}
+		}
+		.country-list-item--fj {
+			&:after {
+				content: "FJ";
+			}
+		}
+	}
+
+	.footer-cta {
+		.btn {
+			width: 100%;
+		}
+	}
+
+}
+
+/* 870px */
+@media only screen and (max-width: 54.375em) {
+
+	.content-wrapper {
+	    padding: 0 40px;
+	}
+
+}
+
+/* 699px */
+@media only screen and (min-width:43.688em) {
+
+	.footer-cta {
+		.btn {
+			width: 100%;
+		}
+	}
+
+}
+
+/* 600px */
+@media only screen and (min-width:37.5em) {
+
+	.block-feature-img {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+}
+
+/* 700px */
+@media only screen and (min-width:43.750em) {
+
+	.overlay-grid {
+		.country-list {
+			a {
+				padding-left: 40px;
+			}
+		}
+	}
+
+}
+
+@media only screen and (min-width:768px) {
+
+	.hero-banner {
+		margin-bottom: 0;
+		h1 {
+			font-size: 3.157em;
+		}
+	}
+
+	.breadcrumb-wrap {
+		margin-bottom: 2.369em;
+	}
+
+	h1 {
+	  font-size: 2.6em;
+	}
+	h3 {
+		font-size: 1.333em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+
+	.headline-intro {
+		font-size: 1.5em;
+	}
+	.lead {
+		font-size: 1.4em;
+	}
+	.headline {
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		.headline-title {
+			font-size: 1.6em;
+		}
+	}
+	
+	.hero-slideshow img {
+	    width: 100%;
+	    height: auto;
+	}
+
+	.product-grid {
+		.product-grid-panel {
+			margin-bottom: 3.157em;
+		}
+	}
+
+	.overlay-grid {
+		padding-top: 80px;
+		.h2 {
+			margin: 0 0 1rem;
+			color: $contrast;
+			font-size: 3.157em;
+		}
+	}
+
+}
+
+/* 992px */
+@media only screen and (min-width:62em) {
+
+	/* Header */
+	.header-nav {
+	  padding: 1.6em 0 0;
+	  align-items: center;
+	}
+	.logo {
+		width: 160px;
+	}
+
+	/* Homepage */
+	.home-values {
+		.home-values-hero {
+			background-image: url(../images/home-values.jpg);
+		}
+	}
+
+	/* Hero banner */
+	.hero-banner {
+		height: $banner-height-desktop;
+		min-height: 550px;
+
+		&.hero--discover {
+			background-image: url(../images/home-hero-banner.jpg);
+			height: $banner-height;
+		}
+		&.hero--products {
+			background-image: url(../images/product-hero-banner.jpg);
+		}
+		&.hero--facial {
+			background-image: url(../images/product-range-hero-banner.jpg);
+		}
+
+		.text-block-wrap {
+			padding-left: 4%;
+			padding-right: 4%;
+		}
+
+		.text-block-home {
+			h1 {
+				font-size: 2em;
+				font-weight: $font-weight-thin;
+			}
+		}
+		
+		h1 {
+			font-size: 3.998em;
+		}
+		h2 {
+			font-size: 1.777em;
+		}
+
+		&.page-banner {
+			height: $banner-strip-medium;
+			min-height: $banner-strip-medium;
+		}
+
+	}
+	
+	/* Headline */
+	.headline {
+		max-width: 80%;
+		.lead {
+			font-size: 1.4em;
+			line-height: 1.5;
+		}
+	}
+
+	.breadcrumb-wrap {
+		margin-bottom: 3rem;
+	}
+
+	.panel-block-title {
+		font-size: 1.953em;
+	}
+	.panel-block {
+		height: 200px;
+		margin-bottom: 1.7rem;
+	}
+
+	.sidebar {
+		padding-top: 0;
+	}
+
+	.block-feature {
+		padding: 0;
+		.block-feature-img {
+			max-width: 100%;
+		}
+		.block-feature-title {
+			margin-bottom: 0;
+			color: $link-base;
+		}
+		.block-feature {
+			select {
+				max-width: 70%;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.nav-section-boutique h4 {
+		font-size: 3.6rem;
+		font-weight: $font-weight-thin;
+		line-height: 3.8rem;
+	}
+
+	blockquote {
+		margin: 60px 0;
+		font-size: 1.7em;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+
+	.hero img {
+		height: 100%;
+		width: auto;
+	}
+
+}
+
+/* 1100px */
+@media only screen and (min-width: 68.750em) {
+
+	.hero img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+/* 1600px */
+@media only screen and (min-width: 100em) {
+
+	.hero-banner {
+		&.page-banner {
+			height: $banner-strip-medium;
+			min-height: $banner-strip-medium;
+		}
+	}
+
+}

@@ -1,0 +1,103 @@
+.footer {
+	margin-top: 4em;
+}
+
+.footer-subscribe {
+	background-color: $bg-grey;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: lighten($medium-grey, 46%);
+	padding: 20px 0;
+	margin-bottom: 2rem;
+	font-size: 1.125rem;
+	.btn {
+		margin: 0 1.2rem;
+	}
+}
+
+.footer-cta {
+	margin-bottom: 1.2rem;
+	.btn {
+		margin-bottom: 10px;
+
+		background-color: transparent;
+		/*background-color: lighten($link-base, 54%);
+		border-color: lighten($link-base, 40%);*/
+	}
+}
+
+.site-links {
+	font-size: $text-tiny;
+	margin-bottom: 1.2rem;
+	h4 {
+		margin: 0 0 16px;
+		font-size: $uppercase-small;
+		color: darken($medium-grey, 50%);
+		text-transform: uppercase;
+	}
+	li {
+		line-height: 1.8;
+	}
+	a {
+		color: $medium-grey;
+		font-size: $uppercase-small;
+		&:hover {
+			color: darken($medium-grey, 30%);
+		}
+	}
+}
+
+.col-brand {
+	text-align: center;
+	p {
+		margin: 0;
+	}
+	.copyright {
+		font-size: 14px;
+		color: lighten($medium-grey, 20%);
+	}
+}
+
+.brands {
+	margin-bottom: 3rem;
+	vertical-align: top;
+	li {
+		margin: 12px;
+	}
+	.brand-logo {
+		display: block;
+		background-image: url(../images/logo-sprite.png);
+    background-size: 180px auto;
+    background-repeat: no-repeat;
+	}
+	.logo-green-earth {
+		background-position: 0 -280px;
+    width: 146px;
+    height: 69px;
+	}
+	.logo-true-pacific {
+		width: 180px;
+		height: 54px;
+		background-position: 0 -157px;
+  }
+  .logo-organic-nut-oils {
+		width: 126px;
+    height: 43px;
+    background-position: 0 -236px;
+  }
+  .logo-coconut-tree {
+		width: 84px;
+    height: 55px;
+    background-position: 0 -44px;
+  }
+  .logo-wildcrafted {
+    width: 138px;
+    height: 44px;
+    background-position: 0 0;
+  }
+  .logo-grey-water {
+		width: 136px;
+    height: 56px;
+    background-position: 0 -100px;
+  }
+}

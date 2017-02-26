@@ -1,0 +1,161 @@
+// Base Font Size
+$base-font-size  		: 18px;
+
+// Base Font
+$base-body-font 		: 'Roboto', Helvetica, Arial, sans-serif;
+$base-header-font 	: 'Roboto', Helvetica, Arial, sans-serif;
+
+// Font Weights
+$font-weight-thin: 				100;
+$font-weight-light: 			300;
+$font-weight-normal: 			400;
+$font-weight-medium: 			500;
+$font-weight-medium-bold: 600;
+$font-weight-bold: 	 			700;
+
+// Font Size
+$text-tiny   			: .875rem;
+$text-small  			: .975rem;
+$uppercase-small  : 14px;
+
+// Alignment
+$text-left 				: left;
+$text-center 			: center;
+$text-right 			: right;
+
+// Border Radius
+$border-radius 		: 2px;
+
+// Body
+html {
+  font-size: $base-font-size;
+  overflow-x: hidden;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+	font-family: $base-body-font;
+	font-size: 	 $base-font-size;
+	font-weight: $font-weight-light;
+	color: 			 $base-color;
+	line-height: 1.6; 
+}
+
+// Headers
+h1, h2, h3, h4 {
+	margin: 1.414em 0 0.5em;
+	font-family: $base-header-font;
+	font-weight: $font-weight-light;
+	line-height: 1.3;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 1.4em;
+  font-size: 1.602em;
+  font-weight: $font-weight-thin;
+  color: $brand-primary;
+}
+h2 {
+	font-size: 1.4em;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: .9em;
+	text-transform: uppercase;
+	font-weight: $font-weight-medium;
+	margin: 0;
+}
+
+p {
+	font-size: inherit;
+	margin-bottom: 1.6em;
+}
+
+small, .font_small {
+	font-size: $text-tiny;
+}
+
+ul, ol, dl {
+	font-size: inherit;
+	line-height: 1.7;
+}
+
+// Links
+a {
+  color: $link-base;
+  text-decoration: none;
+  -webkit-transition-property: color, background-color, border;
+  transition-property: color, background-color, border;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+  &:hover,
+  &:focus {
+    color: $link-hover;
+    text-decoration: none;
+  }
+
+}
+
+// Images
+img {
+	border: 0;
+}
+img, video {
+	max-width: 100%;
+	height: auto;
+}
+
+// Typography Helpers
+
+// Size
+.xsmall {
+	font-size: $text-tiny;
+}
+.small {
+	font-size: $text-small;
+}
+
+// Weight
+.normal {
+	font-weight: $font-weight-normal;
+}
+.medium {
+	font-weight: $font-weight-medium;
+}
+.medium-bold {
+	font-weight: $font-weight-medium-bold;
+}
+.bold {
+	font-weight: $font-weight-bold;
+}
+
+// Style
+.uppercase {
+	text-transform: uppercase;
+}
+
+// Align
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+
+blockquote {
+	margin: 40px 0;
+	font-size: 1.4em;
+	line-height: 1.5;
+	border: 0;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}

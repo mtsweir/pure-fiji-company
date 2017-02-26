@@ -1,0 +1,94 @@
+.section-header {
+	margin-left: auto;
+	margin-right: auto;
+
+	.section-title {
+		margin-top: 0;
+		line-height: 1.4;
+		color: $brand-primary;
+	}
+	p {
+		font-size: 1.125em;
+		color: darken($medium-grey, 10%);
+		line-height: 1.5;
+	}
+
+}
+
+.section {
+	&.slick-offset {
+		margin-bottom: 5rem;
+	}
+}
+
+.headline-intro {
+	margin-bottom: .8rem;
+	color: $brand-primary;
+}
+
+// Home Values
+
+.home-values {
+	.home-values-hero {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		background-image: url(../images/home-values-sm.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+}
+
+// Blog Posts
+
+.article {
+	.article-photo {
+		margin-bottom: .8rem;
+	}
+	.meta-date {
+		margin-bottom: 0;
+		font-weight: $font-weight-medium;
+		font-size: 14px;
+		color: lighten($medium-grey, 20%);
+	}
+	h3 {
+		margin-top: .5rem;
+		font-weight: $font-weight-light;
+	}
+	p {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width:48em) {
+
+	.home-hero {
+		.hero-container {
+			h1 {
+				font-size: 2em;
+				max-width: 600px;
+				margin: 0 auto 1rem;
+			}
+		}
+	}
+
+}
+
+@media only screen and (min-width:768px) {
+
+	.section-header {
+		max-width: 80%;
+		.section-title {
+			font-size: 1.6em;
+		}
+	}
+
+}
+
+@media only screen and (min-width:62em) {
+
+	.section-header {
+		max-width: 70%;
+	}
+
+}
