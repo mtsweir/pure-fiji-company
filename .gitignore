@@ -4,5 +4,6 @@ bower_components
 
 dist
 
+*.zip
+*test
 .tmp
-.zip
